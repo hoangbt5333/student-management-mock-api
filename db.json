@@ -1,0 +1,229 @@
+{
+  "students": [
+    {
+      "id": "SV001",
+      "name": "Nguyen Van A",
+      "email": "a@example.com",
+      "phone": "0901234567",
+      "classId": "CLS002",
+      "className": "CNTT-K68-02",
+      "faculty": "Công nghệ thông tin"
+    },
+    {
+      "id": "SV002",
+      "name": "Tran Thi B",
+      "email": "b@example.com",
+      "phone": "0901234568",
+      "classId": "CLS002",
+      "className": "CNTT-K68-02",
+      "faculty": "Công nghệ thông tin"
+    },
+    {
+      "id": "SV003",
+      "name": "Hoàng",
+      "email": "hoang@gmail.com",
+      "phone": "0254125489",
+      "classId": "CLS001",
+      "className": "CNTT-K68-01",
+      "faculty": "Công nghệ thông tin"
+    },
+    {
+      "id": "SV004",
+      "name": "Phạm Nam",
+      "email": "namss@ex.com",
+      "phone": "0521451253",
+      "classId": "CLS003",
+      "className": "KHMT-K68-03",
+      "faculty": "Khoa học máy tính"
+    },
+    {
+      "code": "SV005",
+      "name": "Phạm Văn C",
+      "email": "Pha@ee.c",
+      "phone": "0254125412",
+      "classId": "CLS001",
+      "className": "CNTT-K68-01",
+      "faculty": "Công nghệ thông tin",
+      "id": "R2J5VkW"
+    }
+  ],
+  "classes": [
+    {
+      "id": "CLS001",
+      "name": "CNTT-K68-01",
+      "department": "Công nghệ thông tin",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "CLS002",
+      "name": "CNTT-K68-02",
+      "department": "Công nghệ thông tin",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "CLS003",
+      "name": "KHMT-K68-03",
+      "department": "Khoa học máy tính",
+      "academicYear": "2025-2026"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "GV001",
+      "name": "Nguyễn Minh An",
+      "email": "minhan@example.com",
+      "department": "Công nghệ thông tin"
+    },
+    {
+      "id": "GV002",
+      "name": "Trần Thu Hà",
+      "email": "thuha@example.com",
+      "department": "Khoa học máy tính"
+    },
+    {
+      "id": "GV003",
+      "name": "Lê Quốc Bảo",
+      "email": "quocbao@example.com",
+      "department": "Công nghệ thông tin"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "MH001",
+      "name": "Lập trình Web",
+      "credits": 3,
+      "teacherId": "GV001"
+    },
+    {
+      "id": "MH002",
+      "name": "Cơ sở dữ liệu",
+      "credits": 3,
+      "teacherId": "GV003"
+    },
+    {
+      "id": "MH003",
+      "name": "Cấu trúc dữ liệu và giải thuật",
+      "credits": 4,
+      "teacherId": "GV002"
+    },
+    {
+      "id": "MH004",
+      "name": "Phân tích thiết kế hệ thống",
+      "credits": 3,
+      "teacherId": "GV001"
+    },
+    {
+      "id": "MH005",
+      "name": "Mạng máy tính",
+      "credits": 3,
+      "teacherId": "GV003"
+    }
+  ],
+  "grades": [
+    {
+      "id": "D001",
+      "studentId": "SV001",
+      "subjectId": "MH001",
+      "score": 8.5
+    },
+    {
+      "id": "D002",
+      "studentId": "SV001",
+      "subjectId": "MH002",
+      "score": 7.8
+    },
+    {
+      "id": "D003",
+      "studentId": "SV002",
+      "subjectId": "MH001",
+      "score": 9
+    },
+    {
+      "id": "D004",
+      "studentId": "SV002",
+      "subjectId": "MH003",
+      "score": 8.2
+    },
+    {
+      "id": "D005",
+      "studentId": "SV003",
+      "subjectId": "MH002",
+      "score": 7
+    },
+    {
+      "id": "D006",
+      "studentId": "SV003",
+      "subjectId": "MH004",
+      "score": 8.7
+    },
+    {
+      "id": "D007",
+      "studentId": "SV004",
+      "subjectId": "MH003",
+      "score": 7.5
+    },
+    {
+      "id": "D008",
+      "studentId": "SV004",
+      "subjectId": "MH005",
+      "score": 8
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular Fundamentals",
+      "description": "Learn Angular components and templates.",
+      "instructor": "Nguyen An",
+      "category": "Math",
+      "durationHours": 2,
+      "price": 500000,
+      "status": "published",
+      "createdAt": "2026-10-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "TypeScript for Web Development",
+      "description": "Understand types and interfaces.",
+      "instructor": "Tran Minh",
+      "category": "English",
+      "durationHours": 3,
+      "price": 350000,
+      "status": "published",
+      "createdAt": "2026-10-05T08:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Hello Angular",
+      "description": "Explore Signals and RxJS.",
+      "instructor": "Le Ha",
+      "category": "English",
+      "durationHours": 2,
+      "price": 700000,
+      "status": "draft",
+      "createdAt": "2026-10-10T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Angular for beginner",
+      "description": "Explore Signals and RxJS.",
+      "instructor": "Le Ha",
+      "category": "English",
+      "durationHours": 2,
+      "price": 700000,
+      "status": "archived",
+      "createdAt": "2026-10-10T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Advanced Angular",
+      "description": "Explore Signals and RxJS.",
+      "instructor": "Le Ha",
+      "category": "English",
+      "durationHours": 2,
+      "price": 700000,
+      "status": "archived",
+      "createdAt": "2026-10-10T08:00:00Z"
+    }
+  ]
+}
